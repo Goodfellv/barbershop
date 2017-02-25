@@ -19,7 +19,7 @@
 						<a href="#">Новости</a>
 					</li>
 					<li>
-						<a href="#">Прайс-лист</a>
+						<a href="price.html">Прайс-лист</a>
 					</li>
 					<li>
 						<a href="#">Магазин</a>
@@ -94,7 +94,7 @@
                     пн — пт: с 10:00 до 22:00<br>
                     сб — вс: с 10:00 до 19:00
                 </p>
-                <a href="#" class="btn">Как проехать</a>
+                <a href="#" class="btn open-map">Как проехать</a>
                 <a href="#" class="btn">Обратная связь</a>
 			</div>
 			<div class="index-content-right">
@@ -132,5 +132,31 @@
 			</section>
 		</div>
 	</footer>
+	<div class="modal-content">
+		<button class="modal-content-close" type="button" title="Закрыть">
+			Закрыть
+		</button>
+		<h2 class="modal-content-title">Личный кабиннет</h2>
+		<p>Введите свой логин и пароль</p>
+		<form action="" method="post" class="login-form">
+			<input type="text" name="login" placeholder="Логин" class="icon-user">
+			<input type="password" name="password" placeholder="Пароль" class="icon-password">
+			<label class="login-checkbox">
+				<input type="checkbox" name="remember">
+				<span class="checkbox-indicator"></span>
+				Запомните меня
+			</label>
+			<a href="#" class="restore">Я забыл свой пароль</a>
+			<button class="btn" type="submit">Войти</button>
+		</form>
+	</div>
+	<div class="modal-content-map">
+		<button class="modal-content-close" type="button title="Закрыть" >
+			Закрыть
+		</button>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1998.6279390449051!2d30.32262709465539!3d59.93831574654459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zMTkvOCDQkdC-0LvRjNGI0LDRjyDQmtC-0L3RjtGI0LXQvdC90LDRjyDRg9C7Liwg0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQu9C40YbQsCwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsINCz0L7RgNC-0LQg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1488066029450" width="766" height="561" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="modal-overlay"></div>
+	<script src=js/script.js></script>
 </body>
 </html>
