@@ -435,6 +435,89 @@ body {
 .short-text {
 	padding-right: 80px;
 }
+
+/*-----страница товара---------*/
+
+.item-left {
+	
+	float: left;
+	
+}
+.item-image {
+	margin: 0;
+    box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+}
+.item-right {
+	float: right;
+	max-width: 390px;
+}
+.item-right p {
+	margin: 0;
+	margin-bottom: 40px;
+}
+.item-price p,
+.item-price a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+    
+}
+.item-price p {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background: #e5e5e5;
+}
+.item-list-title {
+	margin-top: 65px;
+	margin-bottom: 40px;
+}
+.photos-block > a {
+	display: block;
+	float: left;
+	width: 140px;
+	margin-top: 20px;
+	margin-right: 20px;
+	box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
+}
+.photos-block > a:nth-child(3n) {
+	margin-right: 0;
+}
+.item-article p {
+	margin-top: 20px;
+	margin-bottom: 45px;
+	float: left;
+}
+.item-article .current {
+	float: right;
+	color: #aba9a7;
+}
+.content-list-title {
+    margin-bottom: 30px;
+}
+.custom-list-2 {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.custom-list-2 li {
+	position: relative;	
+	padding-left: 20px;
+}
+.custom-list-2 li::before {
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: 0;
+	width: 8px;
+	height: 8px;
+	background-color: #000000;
+	transform: rotate(45deg);
+}
+
+/*------------футер-------------*/
 .main-footer {
 	margin-top: 65px;
 	padding-top: 60px;
@@ -512,7 +595,9 @@ body {
 	color: #000000;
 	background-color: #ffffff;
 }
-/*всплывающее окно*/
+
+/*------------всплывающее окно-----------------*/
+
 .modal-content {
 	display: none;
 	width: 300px;
